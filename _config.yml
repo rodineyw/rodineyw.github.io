@@ -1,0 +1,6 @@
+title: PrintFull
+theme: jekyll-theme-minimal
+markdown: kramdown
+plugins: []
+timezone: America/Sao_Paulo
+permalink: /:title
