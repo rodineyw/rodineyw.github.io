@@ -1,40 +1,59 @@
-<meta charSet="utf-8"/> 
-<meta name="viewport" content="width=device-width, initial-scale=1"/> 
-<title>Política de Privacidade – PrintFull</title>
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Política de Privacidade – PrintFull</title>
   <style>
-    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; max-width: 880px; margin: 40px auto; padding: 0 16px; line-height: 1.6; color: #111827; }
-    h1, h2 { color: #0f172a; }
+    :root { color-scheme: light dark; }
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; max-width: 920px; margin: 40px auto; padding: 0 16px; line-height: 1.65; color: #0f172a; }
+    @media (prefers-color-scheme: dark) { body { color: #e6edf3; background: #0b1220; } a { color: #22d3ee; } }
+    h1 { margin: 0 0 6px; font-size: 28px; }
+    h2 { margin-top: 28px; font-size: 20px; }
     small { color: #6b7280; }
+    ul { padding-left: 18px; }
+    a { text-decoration: none; }
   </style>
+  <meta name="description" content="Política de Privacidade da extensão PrintFull (captura de página inteira, anotações e exportação PNG/PDF).">
+</head>
+<body>
+  <h1>Política de Privacidade – PrintFull</h1>
+  <p><small>Última atualização: 14/02/2026</small></p>
 
-  # Política de Privacidade – PrintFull
-Última atualização: 14/02/2026
+  <h2>1. Visão Geral</h2>
+  <p>O PrintFull é uma extensão para capturar páginas inteiras, adicionar anotações e exportar a imagem resultante em PNG ou PDF. Prezamos pela privacidade: todo o processamento ocorre localmente no seu navegador.</p>
 
-## 1. Visão Geral
-O PrintFull é uma extensão para capturar páginas inteiras, anotar e exportar imagens em PNG/PDF. Todo o processamento é local.
+  <h2>2. Dados Coletados</h2>
+  <p>Não coletamos, armazenamos, processamos ou compartilhamos dados pessoais. A extensão não envia informações para servidores externos.</p>
 
-## 2. Dados Coletados
-Não coletamos, armazenamos ou compartilhamos dados pessoais. Não enviamos informações a servidores externos.
+  <h2>3. Permissões e Finalidades</h2>
+  <ul>
+    <li><strong>activeTab, tabs, scripting</strong>: injetar o script de captura na aba ativa somente após ação explícita do usuário para rolar e capturar a página.</li>
+    <li><strong>downloads</strong>: salvar localmente as imagens geradas quando o usuário solicita exportação em PNG.</li>
+    <li><strong>storage</strong>: manter localmente a última captura para edição e preferências do editor.</li>
+    <li><strong>&lt;all_urls&gt;</strong>: permitir captura em sites http(s) quando o usuário solicita a ação.</li>
+  </ul>
 
-## 3. Permissões e Finalidades
-- activeTab, tabs, scripting : injeção do script de captura na aba ativa somente após ação do usuário.
-- downloads : salvar imagens geradas localmente quando o usuário solicita.
-- storage : manter localmente a última captura e preferências do editor.
-- <all_urls> : permitir captura em sites http(s) quando o usuário solicita.
-## 4. Processamento Local
-As imagens são geradas e manipuladas no seu dispositivo, dentro do navegador. Exportações ocorrem apenas por ação do usuário.
+  <h2>4. Processamento Local de Imagens</h2>
+  <p>As imagens são geradas e manipuladas no próprio dispositivo do usuário, dentro do navegador. Exportações em PNG e a impressão em PDF são iniciadas exclusivamente pelo usuário.</p>
 
-## 5. Retenção
-A “última captura” fica no armazenamento local do navegador e pode ser substituída a qualquer momento.
+  <h2>5. Retenção</h2>
+  <p>A “última captura” é armazenada no armazenamento local do navegador para conveniência do usuário ao abrir o editor. Pode ser substituída a qualquer momento. Não há retenção remota.</p>
 
-## 6. Compartilhamento
-Não compartilhamos dados com terceiros. Não usamos cookies.
+  <h2>6. Compartilhamento</h2>
+  <p>Não compartilhamos dados com terceiros. Não utilizamos cookies nem serviços de análise.</p>
 
-## 7. Segurança
-Sem coleta/transmissão de dados, reduzimos vetores de risco. O uso de permissões é limitado a ações explícitas do usuário.
+  <h2>7. Crianças e Conteúdo</h2>
+  <p>A extensão não é direcionada a crianças. O conteúdo das capturas reflete as páginas visitadas pelo usuário e não é transmitido por nós.</p>
 
-## 8. Alterações
-Podemos atualizar esta política. A data de “Última atualização” será ajustada.
+  <h2>8. Segurança</h2>
+  <p>Por não coletarmos nem transmitirmos dados, reduzimos vetores de risco. O uso das permissões é restrito a ações explícitas do usuário e ao contexto da aba ativa.</p>
 
-## 9. Contato
-E-mail: rodineyw@yahoo.com.br | https://rodineywshare.vercel.app/
+  <h2>9. Alterações</h2>
+  <p>Podemos atualizar esta política para refletir melhorias ou requisitos da plataforma. A data de “Última atualização” será ajustada quando houver mudanças.</p>
+
+  <h2>10. Contato</h2>
+  <p>E‑mail: seu-email@dominio.com<br>Site: https://seusite.com</p>
+</body>
+  
+</html>
